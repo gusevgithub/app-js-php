@@ -10,18 +10,18 @@
 
 Структура приложения:
 
-index.html
-api/Core/Router.php - маршрутизатор PHP.
-api/Core/Config.php - подключение к БД.
-api/Core/Model.php - подключаем БД с помощью PDO.
-api/PHP/Controllers - контроллеры PHP, принимают, обрабатывают и передают данные.
-api/PHP/Models - модели, выполняют запросы к БД и передают данные непосредственно из БД.
-api/index.php - передача данных через этот файл
-JS/app.js - основной файл JavaScript.
-JS/router.js - маршрутизатор JavaScript.
-JS/pages/home.js - страница с контентом и конечной его обработкой.
+index.html <br>
+api/Core/Router.php - маршрутизатор PHP. <br>
+api/Core/Config.php - подключение к БД. <br>
+api/Core/Model.php - подключаем БД с помощью PDO. <br>
+api/PHP/Controllers - контроллеры PHP, принимают, обрабатывают и передают данные <br>
+api/PHP/Models - модели, выполняют запросы к БД и передают данные непосредственно из БД. <br>
+api/index.php - передача данных через этот файл  <br>
+JS/app.js - основной файл JavaScript. <br>
+JS/router.js - маршрутизатор JavaScript.  <br>
+JS/pages/home.js - страница с контентом и конечной его обработкой. <br>
 
-Установка:
-Загрузите папки и файлы на сервер.
-Создайте БД с именем table_data и загрузите туда файл: table_data.sql
-В файле \Core\Config.php настройте подключение к БД (имя, пароль к БД).
+Установка: <br>
+Загрузите папки и файлы на сервер. <br>
+Создайте БД с именем table_data и загрузите туда файл: table_data.sql  <br>
+В файле \Core\Config.php настройте подключение к БД (имя, пароль к БД).  <br>
